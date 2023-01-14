@@ -342,7 +342,7 @@ body:after {
                               }
 
                             .anim{animation-name: anim_s;
-                              transform: rotate(10deg);
+                              transform: rotate(20deg);
                               animation-duration: 3s;
                               animation-iteration-count: infinite;
                             }
@@ -356,10 +356,10 @@ body:after {
                             }
 
                            .anim2{animation-name: anim_s2;
-                              transform: rotate(10deg);
+                              transform: rotate(20deg);
                               animation-duration: 2s;
                               animation-iteration-count: infinite;
-/*                               animation-delay: 1s; */
+
                             }
                             @keyframes anim_s2 {
                               50% {
