@@ -1,0 +1,357 @@
+html,bdy{
+  height:100%;
+}
+
+body:after {
+  position: fixed;/*固定配置 */
+  top: 0; left: 0;/*左上に固定*/
+  width: 100%;
+  height: 100%;/*画面全体を覆う*/
+  content: "";
+  background: #f89174;/*保険用*/
+  background: -moz-linear-gradient(top, #fff9862a 0%,#f072b57d 100%);
+  background: -webkit-linear-gradient(top, #fff9862a 0%,#F072B57d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbcacb', endColorstr='#f79697',GradientType=0 );
+  background: linear-gradient(to bottom, #fff9862a 0%,#F072B57d 100%);
+  z-index: -1;}
+  
+  h1{
+    float: inline-start;
+    font-size: 60px;
+    color: crimson;
+    margin: 2cm;
+    }
+
+    .anime {
+      height:  200px;                         /* 高さ指定 */
+      width:  200px;                          /* 幅指定 */
+      border-radius:  50%;                    /* 角丸指定 */
+      background: linear-gradient(-90deg, #FF00A1, #F6FF00);  /* グラデーション指定 */
+      animation: anime 2s linear infinite;    /* アニメーション指定 */
+      position: absolute;   
+      top: 60px;
+      left: 820px;                  /* 位置指定 */
+  }
+   
+  @keyframes anime {
+      0% {
+          transform: rotate(0deg);    /* 角度指定 */
+      }
+      100% {
+          transform: rotate(360deg);  /* 角度指定 */
+      }
+  }
+   
+  .anime:before {
+      content: "";      /* 空の要素を作る */
+      height:  180px;             /* 高さ指定 */
+      width:  180px;              /* 幅指定 */
+      display:  block;            /* ブロック要素にする */
+      background-color:  #fff;    /* 背景色指定 */
+      border-radius: 50%;         /* 角丸指定 */
+      margin: 0px auto;           /* 中央揃え */
+      position:  relative;        /* 位置指定 */
+      top: 10px;                  /* 位置指定 */
+  }
+  .coji{
+    position:  absolute;        /* 位置指定 */
+    top: 95px;
+    left: 865px;                  /* 位置指定 */
+  }
+
+  .TOP{
+    color: black;
+    font-size: medium;
+    font: icon;
+    background-color:antiquewhite;
+    width:80 px;
+    height: 20px;
+    padding: 10px;
+    border: 5px solid crimson;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+ table{
+   position:  absolute;        /* 位置指定 */
+  top: 300px;
+  left: 200px; 
+  border: 1px solid brown;
+  border-collapse: collapse;
+ }
+ th{
+  background-color:crimson ;
+  color: #fff;
+  width:4cm;
+  padding: 12px;
+  text-align: center;
+ }
+ td{
+  background-color: #fff;
+  border-bottom: 0.5px dashed #ccc;
+  text-align: center;
+  padding:5px;
+ }
+
+ 
+
+  .maruko{
+    float:right;
+    position: absolute;
+    top: 1000px;
+    right: 250px;
+    padding: 100px;
+  }
+  .maru{
+    position: absolute;
+    color:rgb(195, 18, 18);
+    top: 1000px;
+    left: 100px;
+    width: 750px;
+    height: 100px;
+  }
+   
+
+.tamae{
+  clear:right;
+  color:rgb(0, 136, 209);
+  position: absolute;
+  top: 1600px;
+  left: 450px;
+  width: 800px;
+  height: 100px;
+}    
+.tamachan{
+  float: left;
+  position: absolute;
+  top:1600px;
+  left: 50px;
+  padding:50px;
+    }
+
+.hanawa{
+  float:right;
+  position: absolute;
+    top: 2200px;
+    right: 250px;
+    padding: 100px;
+  }
+.hanawakun{
+  color:rgb(195, 18, 18);
+    clear:left;
+    position: absolute;
+    top: 2300px;
+    left: 100px;
+    width: 800px;
+    height: 100px;
+  }
+
+  .migiwa{
+    clear:right;
+    color:rgb(0, 136, 209);
+    position: absolute;
+    top: 3000px;
+    left: 400px;
+    width: 900px;
+    height: 100px;
+  }    
+  .migiwasan{
+    float: left;
+    position: absolute;
+    top:2900px;
+    left: 100px;
+    padding:50px;
+      }
+
+.maruo{
+        float:right;
+        position: absolute;
+          top: 3500px;
+          right: 250px;
+          padding: 100px;
+        }
+      .maruokun{
+        color:rgb(195, 18, 18);
+          clear:left;
+          position: absolute;
+          top: 3600px;
+          left: 100px;
+          width: 850px;
+          height: 100px;
+        }
+
+        .noguchi{
+          clear:right;
+          color:rgb(0, 136, 209);
+          position: absolute;
+          top: 4200px;
+          left: 350px;
+          width: 900px;
+          height: 100px;
+        }    
+        .noguchisan{
+          float: left;
+          position: absolute;
+          top:4100px;
+          left: 10px;
+          padding:100px;
+            }
+
+            .nagasawa{
+              float:right;
+              position: absolute;
+                top: 4800px;
+                right: 350px;
+                padding: auto;
+              }
+            .nagasawakun{
+              color:rgb(195, 18, 18);
+                clear:left;
+                position: absolute;
+                top: 4800px;
+                left: 150px;
+                width: 850px;
+                height: 100px;
+              }
+
+              .fujiki{
+                clear:right;
+                color:rgb(0, 136, 209);
+                position: absolute;
+                top: 5400px;
+                left: 350px;
+                width: 900px;
+                height: 100px;
+              }    
+              .fujikikun{
+                float: left;
+                position: absolute;
+                top:5400px;
+                left: 100px;
+                padding: auto;
+                  }
+
+                  .hamajikun{
+                    float:right;
+                    position: absolute;
+                      top: 6000px;
+                      right: 400px;
+                      padding: auto;
+                    }
+                  .hamaji{
+                    color:rgb(195, 18, 18);
+                      clear:left;
+                      position: absolute;
+                      top: 6000px;
+                      left: 110px;
+                      width: 850px;
+                      height: 100px;
+                    }
+
+                    .yamada{
+                      clear:right;
+                      color:rgb(0, 136, 209);
+                      position: absolute;
+                      top: 6600px;
+                      left: 350px;
+                      width: 900px;
+                      height: 100px;
+                    }    
+                    .yamadakun{
+                      float: left;
+                      position: absolute;
+                      top:6600px;
+                      left: 100px;
+                      padding: auto;
+                        }
+
+                        .bootaro{
+                          float:right;
+                          position: absolute;
+                            top: 7200px;
+                            right: 450px;
+                            padding: auto;
+                          }
+                        .boo{
+                          color:rgb(195, 18, 18);
+                            clear:left;
+                            position: absolute;
+                            top: 7150px;
+                            left: 100px;
+                            width: 850px;
+                            height: 100px;
+                          }
+
+                          .bottom{
+                            float:right;
+                            position: absolute;
+                              top: 7600px;
+                              right: 950px;
+                              padding: auto;
+                            }
+
+                            .charatama{
+                                position: fixed;
+                                display: flex;
+                                flex-direction: column;
+                                /* justify-content: flex-end; */
+                                /* top: 590px; */
+                                left: 20px;
+                                padding: auto;
+                              }
+                              
+                              .charahamaji{
+                                position: fixed;
+                                /* display: flex; */
+                                /* flex-direction: column; */
+                                /* justify-content: flex-end; */
+                                top: 500px;
+                                right: 300px;
+                                padding: auto;
+                              }
+
+                              .charahanawa{
+                                position: fixed;
+                                /* display: flex; */
+                                /* flex-direction: column; */
+                                /* justify-content: flex-end; */
+                                top: 550px;
+                                left: 700px;
+                                padding: auto;
+                              }
+                          
+                              .charamaruo{
+                                position: fixed;
+                                /* display: flex; */
+                                /* flex-direction: column; */
+                                /* justify-content: flex-end; */
+                                top: 220px;
+                                right:290px;
+                                padding: auto;
+                              }
+                              .charaboo{
+                                position: fixed;
+                                /* display: flex; */
+                                /* flex-direction: column; */
+                                /* justify-content: flex-end; */
+                                top: 550px;
+                                left:150px;
+                                padding: auto;
+                              }
+
+                            .anim{animation-name: anim_s;
+                              transform: rotate(5deg);
+                              animation-duration: 2s;
+                              animation-iteration-count: infinite;
+                            }
+                            @keyframes anim_s {
+                              50% {
+                                transform: rotate(-5deg);
+                              }
+                              100% {
+                                transform: rotate(5deg);
+                              }
+                            }
+
