@@ -351,7 +351,7 @@ body:after {
                                 transform: rotate(-10deg);
                               }
                               100% {
-                                transform: rotate(0deg);
+                                transform: rotate(10deg);
                               }
                             }
 
@@ -363,7 +363,7 @@ body:after {
                             }
                             @keyframes anim_s2 {
                               50% {
-                                transform: rotate(0deg);
+                                transform: rotate(10deg);
                               }
                               100% {
                                 transform: rotate(-10deg);
