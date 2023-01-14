@@ -342,7 +342,7 @@ body:after {
                               }
 
                             .anim{animation-name: anim_s;
-                              transform: rotate(20deg);
+                              transform: rotate(10deg);
                               animation-duration: 3s;
                               animation-iteration-count: infinite;
                             }
