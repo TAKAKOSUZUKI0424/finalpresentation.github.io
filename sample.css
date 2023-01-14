@@ -348,22 +348,22 @@ body:after {
                             }
                             @keyframes anim_s {
                               50% {
-                                transform: rotate(-10deg);
+                                transform: rotate(10deg);
                               }
                               100% {
-                                transform: rotate(10deg);
+                                transform: rotate(0deg);
                               }
                             }
 
                            .anim2{animation-name: anim_s2;
-                              transform: rotate(20deg);
+                              transform: rotate(10deg);
                               animation-duration: 2s;
                               animation-iteration-count: infinite;
 
                             }
                             @keyframes anim_s2 {
                               50% {
-                                transform: rotate(10deg);
+                                transform: rotate(0deg);
                               }
                               100% {
                                 transform: rotate(-10deg);
