@@ -357,15 +357,15 @@ body:after {
 
                            .anim2{animation-name: anim_s2;
                               transform: rotate(10deg);
-                              animation-duration: 3s;
+                              animation-duration: 2s;
                               animation-iteration-count: infinite;
 /*                               animation-delay: 1s; */
                             }
                             @keyframes anim_s2 {
                               50% {
-                                transform: rotate(10deg);
+                                transform: rotate(8deg);
                               }
                               100% {
-                                transform: rotate(-10deg);
+                                transform: rotate(-8deg);
                               }
                             }
