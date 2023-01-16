@@ -101,7 +101,7 @@ body:after {
     float:right;
     position: absolute;
     top: 1000px;
-    right: 50px;
+/*     right: 50px; */
     padding: 100px;
   }
   .maru{
