@@ -101,7 +101,7 @@ body:after {
     float:right;
     position: absolute;
     top: 1000px;
-    right: 150px;
+    right: 50px;
     padding: 100px;
   }
   .maru{
@@ -135,7 +135,7 @@ body:after {
   float:right;
   position: absolute;
     top: 2200px;
-    right: 150px;
+    right: 50px;
     padding: 100px;
   }
 .hanawakun{
@@ -169,7 +169,7 @@ body:after {
         float:right;
         position: absolute;
           top: 3500px;
-          right: 150px;
+          right: 50px;
           padding: 100px;
         }
       .maruokun{
@@ -203,7 +203,7 @@ body:after {
               float:right;
               position: absolute;
                 top: 4800px;
-                right: 250px;
+                right: 50px;
                 padding: auto;
               }
             .nagasawakun{
@@ -237,7 +237,7 @@ body:after {
                     float:right;
                     position: absolute;
                       top: 6000px;
-                      right: 300px;
+                      right: 100px;
                       padding: auto;
                     }
                   .hamaji{
@@ -271,7 +271,7 @@ body:after {
                           float:right;
                           position: absolute;
                             top: 7200px;
-                            right: 350px;
+                            right: 150px;
                             padding: auto;
                           }
                         .boo{
@@ -307,7 +307,7 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 400px;
+                                top: 300px;
                                 right: 300px;
                                 padding: auto;
                               }
@@ -317,7 +317,7 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 450px;
+                                top: 350px;
                                 left: 700px;
                                 padding: auto;
                               }
@@ -336,7 +336,7 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 450px;
+                                top: 350px;
                                 left:150px;
                                 padding: auto;
                               }
