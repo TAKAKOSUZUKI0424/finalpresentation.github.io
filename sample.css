@@ -338,7 +338,7 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                bottom: 60px;
+                                top: 460px;
                                 left:80px;
                                 padding: auto;
                               }
