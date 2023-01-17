@@ -101,7 +101,7 @@ body:after {
     float:right;
     position: absolute;
     top: 1000px;
-/*     right: 50px; */
+    right: 50px;
     padding: 100px;
   }
   .maru{
@@ -203,7 +203,7 @@ body:after {
               float:right;
               position: absolute;
                 top: 4800px;
-                right: 50px;
+                right: 150px;
                 padding: auto;
               }
             .nagasawakun{
@@ -237,7 +237,7 @@ body:after {
                     float:right;
                     position: absolute;
                       top: 6000px;
-                      right: 100px;
+                      right: 250px;
                       padding: auto;
                     }
                   .hamaji{
@@ -271,7 +271,7 @@ body:after {
                           float:right;
                           position: absolute;
                             top: 7200px;
-                            right: 150px;
+                            right: 250px;
                             padding: auto;
                           }
                         .boo{
@@ -298,6 +298,7 @@ body:after {
                                 flex-direction: column;
                                 /* justify-content: flex-end; */
                                 /* top: 590px; */
+                                top:250px;
                                 left: 20px;
                                 padding: auto;
                               }
@@ -307,8 +308,8 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 300px;
-                                right: 300px;
+                                top: 400px;
+                                right: 170px;
                                 padding: auto;
                               }
 
@@ -317,7 +318,7 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 350px;
+                                top: 460px;
                                 left: 700px;
                                 padding: auto;
                               }
@@ -327,8 +328,8 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 220px;
-                                right:290px;
+                                top: 120px;
+                                right:80px;
                                 padding: auto;
                               }
                               .charaboo{
@@ -336,8 +337,8 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 350px;
-                                left:150px;
+                                top: 460px;
+                                left:80px;
                                 padding: auto;
                               }
 
