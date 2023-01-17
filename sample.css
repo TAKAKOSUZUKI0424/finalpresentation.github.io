@@ -30,7 +30,7 @@ body:after {
       animation: anime 2s linear infinite;    /* アニメーション指定 */
       position: absolute;   
       top: 60px;
-      left: 820px;                  /* 位置指定 */
+      left: 720px;                  /* 位置指定 */
   }
    
   @keyframes anime {
@@ -56,7 +56,7 @@ body:after {
   .coji{
     position:  absolute;        /* 位置指定 */
     top: 95px;
-    left: 865px;                  /* 位置指定 */
+    left: 765px;                  /* 位置指定 */
   }
 
   .TOP{
@@ -338,7 +338,7 @@ body:after {
                                 /* display: flex; */
                                 /* flex-direction: column; */
                                 /* justify-content: flex-end; */
-                                top: 460px;
+                                bottom: 60px;
                                 left:80px;
                                 padding: auto;
                               }
