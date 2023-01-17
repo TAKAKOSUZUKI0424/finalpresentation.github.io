@@ -106,6 +106,7 @@ body:after {
   }
   .maru{
     position: absolute;
+    clear:left;
     color:rgb(195, 18, 18);
     top: 1000px;
     left: 100px;
