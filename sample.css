@@ -344,7 +344,7 @@ body:after {
                               }
 
                             .anim{animation-name: anim_s;
-                              transform: rotate(10deg);
+                              transform: rotate(15deg);
                               animation-duration: 3s;                              
                               animation-iteration-count: infinite;
                             }
@@ -353,7 +353,7 @@ body:after {
                                 transform: rotate(0deg);
                               }
                               100% {
-                                transform:  rotate(10deg);
+                                transform:  rotate(15deg);
                               }
                             }
 
@@ -369,4 +369,20 @@ body:after {
                               100% {
                                 transform:  rotate(-10deg);
                               }
+                            }
+
+
+
+                            #clickmove.jump{
+                              /* animation-name: jump; */
+                              animation: 0.7s ease-in 0s 1 jump;
+                            }
+                            @keyframes jump
+                            {
+                              0% { transform: translateY(0px) rotateZ(0deg); }
+                              10% { transform: translateY(-10px) rotateZ(-20deg); }
+                              35% { transform: translateY(-40px) rotateZ(-20deg); }
+                              70% { transform: translateY(0px) rotateZ(-16deg); }
+                              85% { transform: translateY(-14px) rotateZ(-8deg); }
+                              100% { transform: translateY(0px) rotateZ(0deg); }
                             }
