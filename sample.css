@@ -415,7 +415,7 @@ animation: 1.5s ease-in 0s 1 elegantJump;
 @keyframes elegantJump{
 0% { transform: translateY(0px) rotateZ(0deg); }
 10% { transform: translateY(0px) rotateZ(-0deg); }
-35% { transform: translateY(-170px) rotateZ(-32deg); }
+35% { transform: translateY(-370px) rotateZ(-32deg); }
 70% { transform: translateY(0px) rotateZ(-10deg); }
 85% { transform: translateY(-30px) rotateZ(0deg); }
 100% { transform: translateY(0px) rotateZ(0deg); }
