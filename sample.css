@@ -149,7 +149,7 @@ body:after {
     height: 100px;
   }
 
-  .migiwa{
+.migiwa{
     clear:right;
     color:rgb(0, 136, 209);
     position: absolute;
@@ -158,231 +158,292 @@ body:after {
     width: 900px;
     height: 100px;
   }    
-  .migiwasan{
+.migiwasan{
     float: left;
     position: absolute;
     top:2900px;
     left: 100px;
     padding:50px;
-      }
+  }
 
 .maruo{
-        float:right;
-        position: absolute;
-          top: 3500px;
-          right: 50px;
-          padding: 100px;
-        }
-      .maruokun{
-        color:rgb(195, 18, 18);
-          clear:left;
-          position: absolute;
-          top: 3600px;
-          left: 100px;
-          width: 850px;
-          height: 100px;
-        }
+    float:right;
+    position: absolute;
+    top: 3500px;
+    right: 50px;
+    padding: 100px;
+  }
+.maruokun{
+    color:rgb(195, 18, 18);
+    clear:left;
+    position: absolute;
+    top: 3600px;
+    left: 100px;
+    width: 850px;
+    height: 100px;
+  }
 
-        .noguchi{
-          clear:right;
-          color:rgb(0, 136, 209);
-          position: absolute;
-          top: 4200px;
-          left: 350px;
-          width: 900px;
-          height: 100px;
-        }    
-        .noguchisan{
-          float: left;
-          position: absolute;
-          top:4100px;
-          left: 10px;
-          padding:100px;
-            }
+.noguchi{
+    clear:right;
+    color:rgb(0, 136, 209);
+    position: absolute;
+    top: 4200px;
+    left: 350px;
+    width: 900px;
+    height: 100px;
+  }    
+.noguchisan{
+    float: left;
+    position: absolute;
+    top:4100px;
+    left: 10px;
+    padding:100px;
+  }
 
-            .nagasawa{
-              float:right;
-              position: absolute;
-                top: 4800px;
-                right: 150px;
-                padding: auto;
-              }
-            .nagasawakun{
-              color:rgb(195, 18, 18);
-                clear:left;
-                position: absolute;
-                top: 4800px;
-                left: 150px;
-                width: 850px;
-                height: 100px;
-              }
+.nagasawa{
+    float:right;
+    position: absolute;
+    top: 4800px;
+    right: 150px;
+    padding: auto;
+  }
+.nagasawakun{
+    color:rgb(195, 18, 18);
+    clear:left;
+    position: absolute;
+    top: 4800px;
+    left: 150px;
+    width: 850px;
+    height: 100px;
+  }
 
-              .fujiki{
-                clear:right;
-                color:rgb(0, 136, 209);
-                position: absolute;
-                top: 5400px;
-                left: 350px;
-                width: 900px;
-                height: 100px;
-              }    
-              .fujikikun{
-                float: left;
-                position: absolute;
-                top:5400px;
-                left: 100px;
-                padding: auto;
-                  }
+.fujiki{
+    clear:right;
+    color:rgb(0, 136, 209);
+    position: absolute;
+    top: 5400px;
+    left: 350px;
+    width: 900px;
+    height: 100px;
+  }
 
-                  .hamajikun{
-                    float:right;
-                    position: absolute;
-                      top: 6000px;
-                      right: 250px;
-                      padding: auto;
-                    }
-                  .hamaji{
-                    color:rgb(195, 18, 18);
-                      clear:left;
-                      position: absolute;
-                      top: 6000px;
-                      left: 110px;
-                      width: 850px;
-                      height: 100px;
-                    }
+.fujikikun{
+    float: left;
+    position: absolute;
+    top:5400px;
+    left: 100px;
+    padding: auto;
+  }
 
-                    .yamada{
-                      clear:right;
-                      color:rgb(0, 136, 209);
-                      position: absolute;
-                      top: 6600px;
-                      left: 350px;
-                      width: 900px;
-                      height: 100px;
-                    }    
-                    .yamadakun{
-                      float: left;
-                      position: absolute;
-                      top:6600px;
-                      left: 100px;
-                      padding: auto;
-                        }
+.hamajikun{
+    float:right;
+    position: absolute;
+    top: 6000px;
+    right: 250px;
+    padding: auto;
+  }
+  
+.hamaji{
+    color:rgb(195, 18, 18);
+    clear:left;
+    position: absolute;
+    top: 6000px;
+    left: 110px;
+    width: 850px;
+    height: 100px;
+  }
 
-                        .bootaro{
-                          float:right;
-                          position: absolute;
-                            top: 7200px;
-                            right: 250px;
-                            padding: auto;
-                          }
-                        .boo{
-                          color:rgb(195, 18, 18);
-                            clear:left;
-                            position: absolute;
-                            top: 7150px;
-                            left: 100px;
-                            width: 850px;
-                            height: 100px;
-                          }
+.yamada{
+    clear:right;
+    color:rgb(0, 136, 209);
+    position: absolute;
+    top: 6600px;
+    left: 350px;
+    width: 900px;
+    height: 100px;
+  }    
+  
+  .yamadakun{
+    float: left;
+    position: absolute;
+    top:6600px;
+    left: 100px;
+    padding: auto;
+  }
 
-                          .bottom{
-                            float:right;
-                            position: absolute;
-                              top: 7600px;
-                              right: 950px;
-                              padding: auto;
-                            }
+  .bootaro{
+    float:right;
+    position: absolute;
+    top: 7200px;
+    right: 250px;
+    padding: auto;
+  }
+  
+.boo{
+    color:rgb(195, 18, 18);
+    clear:left;
+    position: absolute;
+    top: 7150px;
+    left: 100px;
+    width: 850px;
+    height: 100px;
+    }
 
-                            .charatama{
-                                position: fixed;
-                                display: flex;
-                                flex-direction: column;
-                                /* justify-content: flex-end; */
-                                /* top: 590px; */
-                                top:250px;
-                                left: 20px;
-                                padding: auto;
-                              }
+.bottom{
+    float:right;
+    display: flex;
+    position: absolute;
+    top: 7600px;
+    right: 350px; 
+    padding: auto;
+  }
+
+.charaTama{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+   /* justify-content: flex-end; */
+   /* top: 590px; */
+    top:280px;
+    left: 20px;
+    padding: auto;
+}
                               
-                              .charahamaji{
-                                position: fixed;
-                                /* display: flex; */
-                                /* flex-direction: column; */
-                                /* justify-content: flex-end; */
-                                top: 400px;
-                                right: 170px;
-                                padding: auto;
-                              }
+.charaHamaji{
+    position: fixed;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    top: 420px;
+    right: 120px;
+    padding: auto;
+  }
 
-                              .charahanawa{
-                                position: fixed;
-                                /* display: flex; */
-                                /* flex-direction: column; */
-                                /* justify-content: flex-end; */
-                                top: 460px;
-                                left: 700px;
-                                padding: auto;
-                              }
+.charaHanawa{
+     position: fixed;
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: flex-end; */
+     top: 460px;
+     right: 450px;
+     padding: auto;
+   }
                           
-                              .charamaruo{
-                                position: fixed;
-                                /* display: flex; */
-                                /* flex-direction: column; */
-                                /* justify-content: flex-end; */
-                                top: 120px;
-                                right:80px;
-                                padding: auto;
-                              }
-                              .charaboo{
-                                position: fixed;
-                                /* display: flex; */
-                                /* flex-direction: column; */
-                                /* justify-content: flex-end; */
-                                top: 460px;
-                                left:80px;
-                                padding: auto;
-                              }
+.charaMaruo{
+      position: fixed;
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: flex-end; */
+      top: 90px;
+      right:80px;
+      padding: auto;
+    }
+.charaBoo{
+      position: fixed;
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: flex-end; */
+      top: 460px;
+      left:80px;
+      padding: auto;
+    }
 
-                            .anim{animation-name: anim_s;
-                              transform: rotate(15deg);
-                              animation-duration: 3s;                              
-                              animation-iteration-count: infinite;
-                            }
-                            @keyframes anim_s {
-                              50% {
-                                transform: rotate(0deg);
-                              }
-                              100% {
-                                transform:  rotate(15deg);
-                              }
-                            }
+.anim{animation-name: anim_s;
+      transform: rotate(5deg);
+      animation-duration: 2s;                              
+      animation-iteration-count: infinite;
+     }
+@keyframes anim_s {
+      50% {transform: rotate(0deg);}
+      100% {transform:  rotate(5deg);}
+      }
 
-                            .anim2{animation-name: anim_s2;
-                              transform: rotate(-10deg);
-                              animation-duration: 3s;                              
-                              animation-iteration-count: infinite;                          
-                             }
-                            @keyframes anim_s2 {
-                              50% {
-                                transform: rotate(0deg);
-                              }
-                              100% {
-                                transform:  rotate(-10deg);
-                              }
-                            }
+.anim2{animation-name: anim_s2;
+      transform: rotate(-5deg);
+      animation-duration: 2s;                              
+      animation-iteration-count: infinite;                          
+      }
+@keyframes anim_s2 {
+      50% {transform: rotate(0deg);}
+      100% {transform:  rotate(-5deg);}
+      }
+
+.anim3{animation-name: anim_3;
+      /* transform: rotate(0deg); */
+      animation-duration: 1s;                              
+      animation-iteration-count: infinite;
+     }
+@keyframes anim_3 {
+      0% {transform: translateX(-3px) rotate(0deg);}
+      25% {transform: translateX(-2px) rotate(0deg);}
+      50% {transform: translateX(0px) rotate(0deg);}
+      75% {transform: translateX(-2px) rotate(0deg);}
+      100% {transform: translateX(-3px) rotate(0deg);}
+     }
 
 
+#Tama.jump{
+                /* animation-name: jump; */
+      animation: 0.7s ease-in 0s 1 jump;
+      }
+@keyframes jump{
+        0% { transform: translateY(0px) rotateZ(0deg); }
+        10% { transform: translateY(-10px) rotateZ(-20deg); }
+        35% { transform: translateY(-40px) rotateZ(-20deg); }
+        70% { transform: translateY(0px) rotateZ(-16deg); }
+        85% { transform: translateY(-14px) rotateZ(-8deg); }
+        100% { transform: translateY(0px) rotateZ(0deg); }
+      }
 
-                            #clickmove.jump{
-                              /* animation-name: jump; */
-                              animation: 0.7s ease-in 0s 1 jump;
-                            }
-                            @keyframes jump
-                            {
-                              0% { transform: translateY(0px) rotateZ(0deg); }
-                              10% { transform: translateY(-10px) rotateZ(-20deg); }
-                              35% { transform: translateY(-40px) rotateZ(-20deg); }
-                              70% { transform: translateY(0px) rotateZ(-16deg); }
-                              85% { transform: translateY(-14px) rotateZ(-8deg); }
-                              100% { transform: translateY(0px) rotateZ(0deg); }
-                            }
+#Boo.sidejump{
+        /* animation-name: jump; */
+animation: 0.5s ease-in 0s 1 sidejump;
+}
+@keyframes sidejump{
+  0% { transform: translateX(0px) rotateZ(0deg); }
+  10% { transform: translateX(-10px) rotateZ(-20deg); }
+  35% { transform: translateX(-40px) rotateZ(-20deg); }
+  70% { transform: translateX(0px) rotateZ(-16deg); }
+  85% { transform: translateX(-14px) rotateZ(-8deg); }
+  100% { transform: translateX(0px) rotateZ(0deg); }
+}
+
+#Hanawa.elegantJump{
+  /* animation-name: jump; */
+animation: 1.5s ease-in 0s 1 elegantJump;
+}
+@keyframes elegantJump{
+0% { transform: translateY(0px) rotateZ(0deg); }
+10% { transform: translateY(0px) rotateZ(-0deg); }
+35% { transform: translateY(-170px) rotateZ(-32deg); }
+70% { transform: translateY(0px) rotateZ(-10deg); }
+85% { transform: translateY(-30px) rotateZ(0deg); }
+100% { transform: translateY(0px) rotateZ(0deg); }
+}
+
+#Hamaji.shake{
+  /* animation-name: jump; */
+animation: 0.1s ease-in 0s 1 shake;
+}
+@keyframes shake{
+0% { transform: translateX(0px) rotateZ(0deg); }
+10% { transform: translateX(-10px) rotateZ(-20deg); }
+35% { transform: translateX(-10px) rotateZ(-10deg); }
+70% { transform: translateX(0px) rotateZ(-16deg); }
+85% { transform: translateX(-14px) rotateZ(-8deg); }
+100% { transform: translateX(0px) rotateZ(0deg); }
+}
+
+#Maruo.sideMove{
+  /* animation-name: jump; */
+animation: 0.5s ease-in 0s 1 sideMove;
+}
+@keyframes sideMove{
+0% { transform: translateX(0px) rotateZ(0deg); }
+10% { transform: translateX(0px) rotateZ(-0deg); }
+35% { transform: translateX(-170px) rotateZ(-12deg); }
+70% { transform: translateX(0px) rotateZ(-10deg); }
+85% { transform: translateX(-20px) rotateZ(0deg); }
+100% { transform: translateX(0px) rotateZ(0deg); }
+}
+
