@@ -396,16 +396,12 @@ body:after {
       }
 
 #Boo.sidejump{
-        /* animation-name: jump; */
-animation: 0.5s ease-in 0s 1 sidejump;
+  animation: 1s ease-out 0s  sidejump;
 }
+
 @keyframes sidejump{
-  0% { transform: translateX(0px) rotateZ(0deg); }
-  10% { transform: translateX(-10px) rotateZ(-20deg); }
-  35% { transform: translateX(-40px) rotateZ(-20deg); }
-  70% { transform: translateX(0px) rotateZ(-16deg); }
-  85% { transform: translateX(-14px) rotateZ(-8deg); }
-  100% { transform: translateX(0px) rotateZ(0deg); }
+  0%,40%,60%,80% { transform: scale(1.0); }
+  50%,70% { transform: scale(1.25); }
 }
 
 #Hanawa.elegantJump{
