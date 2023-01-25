@@ -16,10 +16,11 @@ body:after {
   z-index: -1;}
   
   h1{
-    float: inline-start;
+    position: absolute;
     font-size: 60px;
     color: crimson;
-    margin: 2cm;
+    top: 30px;
+    left: 450px;
     }
 
     .anime {
@@ -30,7 +31,7 @@ body:after {
       animation: anime 2s linear infinite;    /* アニメーション指定 */
       position: absolute;   
       top: 60px;
-      left: 720px;                  /* 位置指定 */
+      left: 1100px;             
   }
    
   @keyframes anime {
@@ -56,7 +57,7 @@ body:after {
   .coji{
     position:  absolute;        /* 位置指定 */
     top: 95px;
-    left: 765px;                  /* 位置指定 */
+    left: 1150px;                  /* 位置指定 */
   }
 
   .TOP{
@@ -77,7 +78,7 @@ body:after {
  table{
    position:  absolute;        /* 位置指定 */
   top: 300px;
-  left: 200px; 
+  left: 400px; 
   border: 1px solid brown;
   border-collapse: collapse;
  }
@@ -109,7 +110,7 @@ body:after {
     clear:left;
     color:rgb(195, 18, 18);
     top: 1000px;
-    left: 100px;
+    left: 200px;
     width: 750px;
     height: 100px;
   }
@@ -120,7 +121,7 @@ body:after {
   color:rgb(0, 136, 209);
   position: absolute;
   top: 1600px;
-  left: 450px;
+  left: 550px;
   width: 800px;
   height: 100px;
 }    
@@ -128,7 +129,7 @@ body:after {
   float: left;
   position: absolute;
   top:1600px;
-  left: 50px;
+  left: 100px;
   padding:50px;
     }
 
@@ -144,7 +145,7 @@ body:after {
     clear:left;
     position: absolute;
     top: 2300px;
-    left: 100px;
+    left: 200px;
     width: 800px;
     height: 100px;
   }
@@ -154,7 +155,7 @@ body:after {
     color:rgb(0, 136, 209);
     position: absolute;
     top: 3000px;
-    left: 400px;
+    left: 500px;
     width: 900px;
     height: 100px;
   }    
@@ -170,7 +171,7 @@ body:after {
     float:right;
     position: absolute;
     top: 3500px;
-    right: 50px;
+    right: 80px;
     padding: 100px;
   }
 .maruokun{
@@ -178,7 +179,7 @@ body:after {
     clear:left;
     position: absolute;
     top: 3600px;
-    left: 100px;
+    left: 200px;
     width: 850px;
     height: 100px;
   }
@@ -188,7 +189,7 @@ body:after {
     color:rgb(0, 136, 209);
     position: absolute;
     top: 4200px;
-    left: 350px;
+    left: 550px;
     width: 900px;
     height: 100px;
   }    
@@ -196,7 +197,7 @@ body:after {
     float: left;
     position: absolute;
     top:4100px;
-    left: 10px;
+    left: 100px;
     padding:100px;
   }
 
@@ -204,7 +205,7 @@ body:after {
     float:right;
     position: absolute;
     top: 4800px;
-    right: 150px;
+    right: 250px;
     padding: auto;
   }
 .nagasawakun{
@@ -212,7 +213,7 @@ body:after {
     clear:left;
     position: absolute;
     top: 4800px;
-    left: 150px;
+    left: 200px;
     width: 850px;
     height: 100px;
   }
@@ -222,7 +223,7 @@ body:after {
     color:rgb(0, 136, 209);
     position: absolute;
     top: 5400px;
-    left: 350px;
+    left: 500px;
     width: 900px;
     height: 100px;
   }
@@ -231,7 +232,7 @@ body:after {
     float: left;
     position: absolute;
     top:5400px;
-    left: 100px;
+    left: 200px;
     padding: auto;
   }
 
@@ -239,7 +240,7 @@ body:after {
     float:right;
     position: absolute;
     top: 6000px;
-    right: 250px;
+    right: 300px;
     padding: auto;
   }
   
@@ -248,7 +249,7 @@ body:after {
     clear:left;
     position: absolute;
     top: 6000px;
-    left: 110px;
+    left: 250px;
     width: 850px;
     height: 100px;
   }
@@ -258,7 +259,7 @@ body:after {
     color:rgb(0, 136, 209);
     position: absolute;
     top: 6600px;
-    left: 350px;
+    left: 550px;
     width: 900px;
     height: 100px;
   }    
@@ -267,7 +268,7 @@ body:after {
     float: left;
     position: absolute;
     top:6600px;
-    left: 100px;
+    left: 200px;
     padding: auto;
   }
 
@@ -275,7 +276,7 @@ body:after {
     float:right;
     position: absolute;
     top: 7200px;
-    right: 250px;
+    right: 300px;
     padding: auto;
   }
   
@@ -284,7 +285,7 @@ body:after {
     clear:left;
     position: absolute;
     top: 7150px;
-    left: 100px;
+    left: 250px;
     width: 850px;
     height: 100px;
     }
@@ -294,7 +295,7 @@ body:after {
     display: flex;
     position: absolute;
     top: 7600px;
-    left: 50px; 
+    left: 300px; 
     padding: auto;
   }
 
@@ -343,7 +344,7 @@ body:after {
       /* display: flex; */
       /* flex-direction: column; */
       /* justify-content: flex-end; */
-      top: 460px;
+      top: 560px;
       left:80px;
       padding: auto;
     }
@@ -437,7 +438,7 @@ animation: 0.5s ease-in 0s 1 sideMove;
 @keyframes sideMove{
 0% { transform: translateX(0px) rotateZ(0deg); }
 10% { transform: translateX(0px) rotateZ(-0deg); }
-35% { transform: translateX(-170px) rotateZ(-12deg); }
+35% { transform: translateX(-200px) rotateZ(-12deg); }
 70% { transform: translateX(0px) rotateZ(-10deg); }
 85% { transform: translateX(-20px) rotateZ(0deg); }
 100% { transform: translateX(0px) rotateZ(0deg); }
